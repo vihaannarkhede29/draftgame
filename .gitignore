@@ -33,6 +33,13 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# firebase dataconnect (not used)
+/.agents/
+/dataconnect/
+/src/dataconnect-generated/
+/src/dataconnect-admin-generated/
+skills-lock.json
+
 # vercel
 .vercel
 
